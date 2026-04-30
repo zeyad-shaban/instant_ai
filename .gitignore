@@ -1,0 +1,105 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# IDEs - VS Code
+.vscode/
+*.code-workspace
+
+# IDEs - PyCharm
+.idea/
+*.iml
+
+# Node/npm
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Vercel
+.vercel
+.vercel/
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Cache and temporary files
+.cache/
+*.tmp
+.coverage
+htmlcov/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ML/AI model files and data (common for generative AI projects)
+*.pth
+*.pt
+*.onnx
+*.pb
+*.h5
+*.pkl
+*.joblib
+models/
+checkpoints/
+*.safetensors
+data/
+raw_data/
+processed_data/
+
+# Local development
+local_settings.py
+secrets.json
+*.pem
+*.key
+
+# IDE generated files
+.DS_Store
+__MACOSX/
